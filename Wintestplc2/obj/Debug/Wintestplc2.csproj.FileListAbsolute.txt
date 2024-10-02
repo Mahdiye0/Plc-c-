@@ -1,0 +1,17 @@
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\obj\Debug\Wintestplc2.Form1.resources
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\obj\Debug\Wintestplc2.Properties.Resources.resources
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\obj\Debug\Wintestplc2.csproj.GenerateResource.cache
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\obj\Debug\Wintestplc2.csproj.CoreCompileInputs.cache
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\Wintestplc2.exe.config
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\Wintestplc2.exe
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\Wintestplc2.pdb
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\Code4Bugs.Utils.dll
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\NModbus4.dll
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\NModbus4.xml
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\obj\Debug\Wintestplc2.csproj.CopyComplete
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\obj\Debug\Wintestplc2.exe
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\obj\Debug\Wintestplc2.pdb
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\EasyModbus.dll
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\EasyModbus.xml

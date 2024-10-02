@@ -1,0 +1,38 @@
+[8/10/2024 12:18:55] خطا: Access to the port 'COM1' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 50
+Access to the port 'COM1' is denied.
+[8/11/2024 14:45:39] خطا: Enum value was out of legal range.
+Parameter name: StopBits
+   at System.IO.Ports.SerialPort.set_StopBits(StopBits value)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 48
+Enum value was out of legal range.
+Parameter name: StopBits
+[8/11/2024 14:46:15] خطا: Checksums failed to match 1, 16, 0, 4, 0, 2 != 1, 16, 0, 4, 0, 2, 4, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Checksums failed to match 1, 16, 0, 4, 0, 2 != 1, 16, 0, 4, 0, 2, 4, 0
+[8/11/2024 14:48:02] خطا: Checksums failed to match 1, 16, 0, 4, 0, 2 != 1, 16, 0, 4, 0, 2, 4, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Checksums failed to match 1, 16, 0, 4, 0, 2 != 1, 16, 0, 4, 0, 2, 4, 0
+[9/15/2024 22:21:50] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 146
+Input string was not in a correct format.
+[10/2/2024 08:11:19] خطا: Enum value was out of legal range.
+Parameter name: StopBits
+   at System.IO.Ports.SerialPort.set_StopBits(StopBits value)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 51
+Enum value was out of legal range.
+Parameter name: StopBits

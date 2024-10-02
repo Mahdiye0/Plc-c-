@@ -1,0 +1,1225 @@
+[7/30/2024 18:02:08] خطا: The port 'Com2' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 48
+The port 'Com2' does not exist.
+[7/30/2024 18:03:42] خطا: The PortName cannot be empty.
+Parameter name: PortName
+   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 42
+The PortName cannot be empty.
+Parameter name: PortName
+[7/30/2024 19:47:48] خطا: The PortName cannot be empty.
+Parameter name: PortName
+   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 42
+The PortName cannot be empty.
+Parameter name: PortName
+[7/31/2024 11:43:21] خطا: The port is closed.
+   at System.IO.Ports.SerialPort.DiscardInBuffer()
+   at Modbus.IO.SerialPortAdapter.DiscardInBuffer()
+   at Modbus.IO.ModbusSerialTransport.Write(IModbusMessage message)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 55
+The port is closed.
+[7/31/2024 11:54:36] خطا: The port is closed.
+   at System.IO.Ports.SerialPort.DiscardInBuffer()
+   at Modbus.IO.SerialPortAdapter.DiscardInBuffer()
+   at Modbus.IO.ModbusSerialTransport.Write(IModbusMessage message)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 55
+The port is closed.
+[7/31/2024 13:18:29] خطا: The port is closed.
+   at System.IO.Ports.SerialPort.DiscardInBuffer()
+   at Modbus.IO.SerialPortAdapter.DiscardInBuffer()
+   at Modbus.IO.ModbusSerialTransport.Write(IModbusMessage message)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 55
+The port is closed.
+[7/31/2024 16:30:28] خطا: Argument numberOfPoints must be between 1 and 125 inclusive.
+   at Modbus.Device.ModbusMaster.ValidateNumberOfPoints(String argumentName, UInt16 numberOfPoints, UInt16 maxNumberOfPoints)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 64
+Argument numberOfPoints must be between 1 and 125 inclusive.
+[7/31/2024 18:09:48] خطا: Object reference not set to an instance of an object.
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 165
+Object reference not set to an instance of an object.
+[7/31/2024 18:10:05] خطا: The port is closed.
+   at System.IO.Ports.SerialPort.DiscardInBuffer()
+   at Modbus.IO.SerialPortAdapter.DiscardInBuffer()
+   at Modbus.IO.ModbusSerialTransport.Write(IModbusMessage message)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 165
+The port is closed.
+[7/31/2024 18:10:41] خطا: The port is closed.
+   at System.IO.Ports.SerialPort.DiscardInBuffer()
+   at Modbus.IO.SerialPortAdapter.DiscardInBuffer()
+   at Modbus.IO.ModbusSerialTransport.Write(IModbusMessage message)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 178
+The port is closed.
+[7/31/2024 18:23:57] خطا: Enum value was out of legal range.
+Parameter name: StopBits
+   at System.IO.Ports.SerialPort.set_StopBits(StopBits value)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 47
+Enum value was out of legal range.
+Parameter name: StopBits
+[7/31/2024 18:24:04] خطا: The given port name does not start with COM/com or does not resolve to a valid serial port.
+Parameter name: portName
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 49
+The given port name does not start with COM/com or does not resolve to a valid serial port.
+Parameter name: portName
+[7/31/2024 18:24:51] خطا: The PortName cannot be empty.
+Parameter name: PortName
+   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 43
+The PortName cannot be empty.
+Parameter name: PortName
+[8/10/2024 13:11:16] خطا: Message frame must contain at least 6 bytes of data.
+   at Modbus.Message.AbstractModbusMessage.Initialize(Byte[] frame)
+   at Modbus.Message.ModbusMessageFactory.CreateModbusMessage[T](Byte[] frame)
+   at Modbus.IO.ModbusTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Message frame must contain at least 6 bytes of data.
+[8/10/2024 13:19:16] خطا: Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 1
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 1
+[8/10/2024 13:20:09] خطا: Argument numberOfPoints must be between 1 and 125 inclusive.
+   at Modbus.Device.ModbusMaster.ValidateNumberOfPoints(String argumentName, UInt16 numberOfPoints, UInt16 maxNumberOfPoints)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 157
+Argument numberOfPoints must be between 1 and 125 inclusive.
+[8/10/2024 13:21:01] خطا: Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 1
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 1
+[8/10/2024 13:21:32] خطا: Access to the port 'COM2' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 50
+Access to the port 'COM2' is denied.
+[8/10/2024 13:30:27] خطا: Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 1
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 1
+[8/10/2024 13:36:44] خطا: Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 0
+[8/10/2024 13:37:03] خطا: Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 0
+[8/10/2024 14:16:32] خطا: Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 0
+[8/10/2024 15:04:01] خطا: Checksums failed to match 1, 16, 0, 2, 0, 3 != 1, 16, 0, 2, 0, 3, 6, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e)
+Checksums failed to match 1, 16, 0, 2, 0, 3 != 1, 16, 0, 2, 0, 3, 6, 0
+[8/10/2024 15:07:40] خطا: Checksums failed to match 1, 16, 0, 2, 0, 3 != 1, 16, 0, 2, 0, 3, 6, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e)
+Checksums failed to match 1, 16, 0, 2, 0, 3 != 1, 16, 0, 2, 0, 3, 6, 0
+[8/10/2024 15:09:08] خطا: Checksums failed to match 1, 16, 0 != 1, 16, 0, 2, 0, 3, 6, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e)
+Checksums failed to match 1, 16, 0 != 1, 16, 0, 2, 0, 3, 6, 0
+[8/10/2024 15:09:20] خطا: Checksums failed to match 1, 16, 0 != 1, 16, 0, 2, 0, 3, 6, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e)
+Checksums failed to match 1, 16, 0 != 1, 16, 0, 2, 0, 3, 6, 0
+[8/10/2024 15:15:01] خطا: Checksums failed to match 1, 16, 0 != 1, 16, 0, 2, 0, 3, 6, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 157
+Checksums failed to match 1, 16, 0 != 1, 16, 0, 2, 0, 3, 6, 0
+[8/10/2024 15:18:20] خطا: Checksums failed to match 1, 16, 0 != 1, 16, 0, 1, 0, 3, 6, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 157
+Checksums failed to match 1, 16, 0 != 1, 16, 0, 1, 0, 3, 6, 0
+[8/10/2024 15:21:24] خطا: Object reference not set to an instance of an object.
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 157
+Object reference not set to an instance of an object.
+[8/11/2024 10:55:11] خطا: Object reference not set to an instance of an object.
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Object reference not set to an instance of an object.
+[8/11/2024 13:01:20] خطا: Object reference not set to an instance of an object.
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Object reference not set to an instance of an object.
+[8/11/2024 13:04:10] خطا: Access to the port 'COM1' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 50
+Access to the port 'COM1' is denied.
+[8/11/2024 13:05:44] خطا: Access to the port 'COM1' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 50
+Access to the port 'COM1' is denied.
+[8/11/2024 13:07:28] خطا: Received response with unexpected Function Code. Expected 16, received 3.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Received response with unexpected Function Code. Expected 16, received 3.
+[8/11/2024 13:09:59] خطا: Access to the port 'COM1' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 50
+Access to the port 'COM1' is denied.
+[8/11/2024 14:36:44] خطا: Checksums failed to match 1, 16, 0, 4, 0, 2 != 1, 16, 0, 4, 0, 2, 4, 0, 0, 0, 0, 229
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusAsciiTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Checksums failed to match 1, 16, 0, 4, 0, 2 != 1, 16, 0, 4, 0, 2, 4, 0, 0, 0, 0, 229
+[8/11/2024 14:37:46] خطا: Checksums failed to match 1, 16, 0, 4, 0, 2 != 1, 16, 0, 4, 0, 2, 4, 0, 0, 0, 0, 229
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusAsciiTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 170
+Checksums failed to match 1, 16, 0, 4, 0, 2 != 1, 16, 0, 4, 0, 2, 4, 0, 0, 0, 0, 229
+[8/13/2024 18:39:11] خطا: Message frame must contain at least 6 bytes of data.
+   at Modbus.Message.AbstractModbusMessage.Initialize(Byte[] frame)
+   at Modbus.Message.ModbusMessageFactory.CreateModbusMessage[T](Byte[] frame)
+   at Modbus.IO.ModbusTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 172
+Message frame must contain at least 6 bytes of data.
+[9/5/2024 13:15:29] خطا: The PortName cannot be empty.
+Parameter name: PortName
+   at System.IO.Ports.SerialPort.set_PortName(String value)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 44
+The PortName cannot be empty.
+Parameter name: PortName
+[9/14/2024 07:04:15] خطا: Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 172
+Checksums failed to match 1, 16, 0, 0, 0, 2 != 1, 16, 0, 0, 0, 2, 4, 0
+[9/14/2024 07:10:31] خطا: Access to the port 'COM1' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 51
+Access to the port 'COM1' is denied.
+[9/14/2024 07:11:22] خطا: Access to the port 'COM1' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 51
+Access to the port 'COM1' is denied.
+[9/14/2024 17:24:41] خطا: Checksums failed to match 1, 16, 0, 0, 0, 10 != 1, 16, 0, 0, 0, 10, 20, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 172
+Checksums failed to match 1, 16, 0, 0, 0, 10 != 1, 16, 0, 0, 0, 10, 20, 0
+[9/14/2024 17:26:05] خطا: Checksums failed to match 1, 16, 0, 0, 0, 10 != 1, 16, 0, 0, 0, 10, 20, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 172
+Checksums failed to match 1, 16, 0, 0, 0, 10 != 1, 16, 0, 0, 0, 10, 20, 0
+[9/14/2024 17:42:10] خطا: Checksums failed to match 1, 6, 0, 0, 0, 0 != 1, 6, 0, 0, 0, 0, 9, 74
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Checksums failed to match 1, 6, 0, 0, 0, 0 != 1, 6, 0, 0, 0, 0, 9, 74
+[9/14/2024 17:43:57] خطا: Unexpected start address in response. Expected 40001, received 0.
+   at Modbus.Message.WriteSingleRegisterRequestResponse.ValidateResponse(IModbusMessage response)
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Unexpected start address in response. Expected 40001, received 0.
+[9/14/2024 17:44:26] خطا: Unexpected start address in response. Expected 40002, received 1.
+   at Modbus.Message.WriteSingleRegisterRequestResponse.ValidateResponse(IModbusMessage response)
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Unexpected start address in response. Expected 40002, received 1.
+[9/14/2024 17:45:55] خطا: Unexpected data in response. Expected 12, received 0.
+   at Modbus.Message.WriteSingleRegisterRequestResponse.ValidateResponse(IModbusMessage response)
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Unexpected data in response. Expected 12, received 0.
+[9/14/2024 17:47:06] خطا: Unexpected data in response. Expected 12, received 14.
+   at Modbus.Message.WriteSingleRegisterRequestResponse.ValidateResponse(IModbusMessage response)
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Unexpected data in response. Expected 12, received 14.
+[9/14/2024 18:09:11] خطا: Unexpected data in response. Expected 12, received 0.
+   at Modbus.Message.WriteSingleRegisterRequestResponse.ValidateResponse(IModbusMessage response)
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Unexpected data in response. Expected 12, received 0.
+[9/14/2024 18:14:59] خطا: Unexpected data in response. Expected 12, received 0.
+   at Modbus.Message.WriteSingleRegisterRequestResponse.ValidateResponse(IModbusMessage response)
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Unexpected data in response. Expected 12, received 0.
+[9/14/2024 18:24:54] خطا: Unexpected data in response. Expected 140, received 0.
+   at Modbus.Message.WriteSingleRegisterRequestResponse.ValidateResponse(IModbusMessage response)
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Unexpected data in response. Expected 140, received 0.
+[9/14/2024 18:25:40] خطا: Checksums failed to match 1, 16, 0, 1, 0, 5 != 1, 16, 0, 1, 0, 5, 10, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Checksums failed to match 1, 16, 0, 1, 0, 5 != 1, 16, 0, 1, 0, 5, 10, 0
+[9/14/2024 18:27:02] خطا: Checksums failed to match 1, 16, 0, 1, 0, 5 != 1, 16, 0, 1, 0, 5, 10, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Checksums failed to match 1, 16, 0, 1, 0, 5 != 1, 16, 0, 1, 0, 5, 10, 0
+[9/14/2024 18:27:36] خطا: Checksums failed to match 1, 16, 0, 1, 0, 5 != 1, 16, 0, 1, 0, 5, 10, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Checksums failed to match 1, 16, 0, 1, 0, 5 != 1, 16, 0, 1, 0, 5, 10, 0
+[9/14/2024 18:27:47] خطا: Enum value was out of legal range.
+Parameter name: StopBits
+   at System.IO.Ports.SerialPort.set_StopBits(StopBits value)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 48
+Enum value was out of legal range.
+Parameter name: StopBits
+[9/14/2024 18:28:18] خطا: Checksums failed to match 1, 16, 0, 1, 0, 5 != 1, 16, 0, 1, 0, 5, 10, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Checksums failed to match 1, 16, 0, 1, 0, 5 != 1, 16, 0, 1, 0, 5, 10, 0
+[9/14/2024 18:29:02] خطا: Checksums failed to match 1, 16, 0, 1, 0, 5 != 1, 16, 0, 1, 0, 5, 10, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Checksums failed to match 1, 16, 0, 1, 0, 5 != 1, 16, 0, 1, 0, 5, 10, 0
+[9/14/2024 18:29:30] خطا: Checksums failed to match 1, 16, 0 != 1, 16, 0, 1, 0, 5, 10, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 159
+Checksums failed to match 1, 16, 0 != 1, 16, 0, 1, 0, 5, 10, 0
+[9/14/2024 18:29:36] خطا: Checksums failed to match 1, 16, 0 != 1, 16, 0, 1, 0, 5, 10, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 159
+Checksums failed to match 1, 16, 0 != 1, 16, 0, 1, 0, 5, 10, 0
+[9/15/2024 08:05:38] خطا: Access to the port 'COM1' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 51
+Access to the port 'COM1' is denied.
+[9/15/2024 21:13:36] خطا: Checksums failed to match 1, 16, 0, 0, 0, 5 != 1, 16, 0, 0, 0, 5, 10, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Checksums failed to match 1, 16, 0, 0, 0, 5 != 1, 16, 0, 0, 0, 5, 10, 0
+[9/15/2024 21:14:09] خطا: Unexpected data in response. Expected 120, received 0.
+   at Modbus.Message.WriteSingleRegisterRequestResponse.ValidateResponse(IModbusMessage response)
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Unexpected data in response. Expected 120, received 0.
+[9/15/2024 21:14:25] خطا: Unexpected data in response. Expected 120, received 0.
+   at Modbus.Message.WriteSingleRegisterRequestResponse.ValidateResponse(IModbusMessage response)
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteSingleRegister(Byte slaveAddress, UInt16 registerAddress, UInt16 value)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Unexpected data in response. Expected 120, received 0.
+[9/15/2024 21:48:55] خطا: Access to the port 'COM1' is denied.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 51
+Access to the port 'COM1' is denied.
+[9/15/2024 21:50:14] خطا: Exception of type 'Modbus.SlaveException' was thrown.
+Function Code: 144
+Exception Code: 2 - The data address received in the query is not an allowable address for the server (or slave). More specifically, the combination of reference number and transfer length is invalid. For a controller with 100 registers, the PDU addresses the first register as 0, and the last one as 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 4, then this request will successfully operate (address-wise at least) on registers 96, 97, 98, 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 5, then this request will fail with Exception Code 0x02 “Illegal Data Address” since it attempts to operate on registers 96, 97, 98, 99 and 100, and there is no register with address 100.
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Exception of type 'Modbus.SlaveException' was thrown.
+Function Code: 144
+Exception Code: 2 - The data address received in the query is not an allowable address for the server (or slave). More specifically, the combination of reference number and transfer length is invalid. For a controller with 100 registers, the PDU addresses the first register as 0, and the last one as 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 4, then this request will successfully operate (address-wise at least) on registers 96, 97, 98, 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 5, then this request will fail with Exception Code 0x02 “Illegal Data Address” since it attempts to operate on registers 96, 97, 98, 99 and 100, and there is no register with address 100.
+[9/15/2024 21:50:49] خطا: Exception of type 'Modbus.SlaveException' was thrown.
+Function Code: 144
+Exception Code: 2 - The data address received in the query is not an allowable address for the server (or slave). More specifically, the combination of reference number and transfer length is invalid. For a controller with 100 registers, the PDU addresses the first register as 0, and the last one as 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 4, then this request will successfully operate (address-wise at least) on registers 96, 97, 98, 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 5, then this request will fail with Exception Code 0x02 “Illegal Data Address” since it attempts to operate on registers 96, 97, 98, 99 and 100, and there is no register with address 100.
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 173
+Exception of type 'Modbus.SlaveException' was thrown.
+Function Code: 144
+Exception Code: 2 - The data address received in the query is not an allowable address for the server (or slave). More specifically, the combination of reference number and transfer length is invalid. For a controller with 100 registers, the PDU addresses the first register as 0, and the last one as 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 4, then this request will successfully operate (address-wise at least) on registers 96, 97, 98, 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 5, then this request will fail with Exception Code 0x02 “Illegal Data Address” since it attempts to operate on registers 96, 97, 98, 99 and 100, and there is no register with address 100.
+[9/15/2024 23:27:09] خطا: Exception of type 'Modbus.SlaveException' was thrown.
+Function Code: 144
+Exception Code: 2 - The data address received in the query is not an allowable address for the server (or slave). More specifically, the combination of reference number and transfer length is invalid. For a controller with 100 registers, the PDU addresses the first register as 0, and the last one as 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 4, then this request will successfully operate (address-wise at least) on registers 96, 97, 98, 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 5, then this request will fail with Exception Code 0x02 “Illegal Data Address” since it attempts to operate on registers 96, 97, 98, 99 and 100, and there is no register with address 100.
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 193
+Exception of type 'Modbus.SlaveException' was thrown.
+Function Code: 144
+Exception Code: 2 - The data address received in the query is not an allowable address for the server (or slave). More specifically, the combination of reference number and transfer length is invalid. For a controller with 100 registers, the PDU addresses the first register as 0, and the last one as 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 4, then this request will successfully operate (address-wise at least) on registers 96, 97, 98, 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 5, then this request will fail with Exception Code 0x02 “Illegal Data Address” since it attempts to operate on registers 96, 97, 98, 99 and 100, and there is no register with address 100.
+[9/16/2024 13:36:14] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 142
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 346
+Input string was not in a correct format.
+[9/16/2024 13:36:14] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 142
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 346
+Input string was not in a correct format.
+[9/16/2024 13:36:17] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 142
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 346
+Input string was not in a correct format.
+[9/16/2024 13:36:18] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 142
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 346
+Input string was not in a correct format.
+[9/16/2024 13:36:19] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 142
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 346
+Input string was not in a correct format.
+[9/16/2024 13:36:19] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 142
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 346
+Input string was not in a correct format.
+[9/16/2024 13:36:20] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 142
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 346
+Input string was not in a correct format.
+[9/16/2024 13:40:42] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:40:44] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:40:46] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 143
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Input string was not in a correct format.
+[9/16/2024 13:40:46] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 143
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Input string was not in a correct format.
+[9/16/2024 13:40:46] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 143
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Input string was not in a correct format.
+[9/16/2024 13:40:47] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 143
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Input string was not in a correct format.
+[9/16/2024 13:40:48] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s, NumberStyles style)
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 143
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Input string was not in a correct format.
+[9/16/2024 13:40:48] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:40:48] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:40:51] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:40:53] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:40:54] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:41:37] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:41:38] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:41:39] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:41:51] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:41:51] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:41:52] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:42:11] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:42:12] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:42:13] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:42:21] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:42:32] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:42:33] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:42:34] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:42:34] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:43:59] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:43:59] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:44:01] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:44:19] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:44:22] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 180
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 379
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:44:55] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:45:01] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:45:02] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:45:03] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:45:29] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:01] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:06] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:07] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:07] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:24] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:25] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:40] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:40] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:54] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:57] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:57] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/16/2024 13:47:58] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress)
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e)
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 09:30:12] خطا: Exception of type 'Modbus.SlaveException' was thrown.
+Function Code: 131
+Exception Code: 2 - The data address received in the query is not an allowable address for the server (or slave). More specifically, the combination of reference number and transfer length is invalid. For a controller with 100 registers, the PDU addresses the first register as 0, and the last one as 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 4, then this request will successfully operate (address-wise at least) on registers 96, 97, 98, 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 5, then this request will fail with Exception Code 0x02 “Illegal Data Address” since it attempts to operate on registers 96, 97, 98, 99 and 100, and there is no register with address 100.
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.PerformReadRegisters(ReadHoldingInputRegistersRequest request)
+   at Modbus.Device.ModbusMaster.ReadHoldingRegisters(Byte slaveAddress, UInt16 startAddress, UInt16 numberOfPoints)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 213
+Exception of type 'Modbus.SlaveException' was thrown.
+Function Code: 131
+Exception Code: 2 - The data address received in the query is not an allowable address for the server (or slave). More specifically, the combination of reference number and transfer length is invalid. For a controller with 100 registers, the PDU addresses the first register as 0, and the last one as 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 4, then this request will successfully operate (address-wise at least) on registers 96, 97, 98, 99. If a request is submitted with a starting register address of 96 and a quantity of registers of 5, then this request will fail with Exception Code 0x02 “Illegal Data Address” since it attempts to operate on registers 96, 97, 98, 99 and 100, and there is no register with address 100.
+[9/29/2024 09:39:17] خطا: Received response with unexpected Function Code. Expected 16, received 6.
+   at Modbus.IO.ModbusTransport.ValidateResponse(IModbusMessage request, IModbusMessage response)
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 224
+Received response with unexpected Function Code. Expected 16, received 6.
+[9/29/2024 09:40:13] خطا: Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 224
+Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+[9/29/2024 09:56:06] خطا: Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 224
+Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+[9/29/2024 10:00:28] خطا: Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 224
+Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+[9/29/2024 10:01:08] خطا: Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 224
+Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+[9/29/2024 10:07:08] خطا: Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 224
+Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+[9/29/2024 10:08:10] خطا: Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 224
+Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+[9/29/2024 10:36:21] خطا: Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 224
+Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+[9/29/2024 10:37:16] خطا: Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 224
+Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+[9/29/2024 10:47:30] خطا: The given port name does not start with COM/com or does not resolve to a valid serial port.
+Parameter name: portName
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 54
+The given port name does not start with COM/com or does not resolve to a valid serial port.
+Parameter name: portName
+[9/29/2024 10:48:29] خطا: Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 227
+Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+[9/29/2024 10:49:09] خطا: Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 227
+Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+[9/29/2024 10:50:56] خطا: Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 227
+Checksums failed to match 1, 16, 0, 0, 0, 1 != 1, 16, 0, 0, 0, 1, 2, 0
+[9/29/2024 11:00:34] خطا: The given port name does not start with COM/com or does not resolve to a valid serial port.
+Parameter name: portName
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 54
+The given port name does not start with COM/com or does not resolve to a valid serial port.
+Parameter name: portName
+[9/29/2024 11:14:50] خطا: Checksums failed to match 1, 16, 0, 0, 0, 10 != 1, 16, 0, 0, 0, 10, 20, 0
+   at Modbus.IO.ModbusSerialTransport.CreateResponse[T](Byte[] frame)
+   at Modbus.IO.ModbusRtuTransport.ReadResponse[T]()
+   at Modbus.IO.ModbusTransport.UnicastMessage[T](IModbusMessage message)
+   at Modbus.Device.ModbusMaster.WriteMultipleRegisters(Byte slaveAddress, UInt16 startAddress, UInt16[] data)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 227
+Checksums failed to match 1, 16, 0, 0, 0, 10 != 1, 16, 0, 0, 0, 10, 20, 0
+[9/29/2024 11:26:06] خطا: The given port name does not start with COM/com or does not resolve to a valid serial port.
+Parameter name: portName
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 54
+The given port name does not start with COM/com or does not resolve to a valid serial port.
+Parameter name: portName
+[9/29/2024 11:34:20] خطا: The given port name does not start with COM/com or does not resolve to a valid serial port.
+Parameter name: portName
+   at System.IO.Ports.SerialStream..ctor(String portName, Int32 baudRate, Parity parity, Int32 dataBits, StopBits stopBits, Int32 readTimeout, Int32 writeTimeout, Handshake handshake, Boolean dtrEnable, Boolean rtsEnable, Boolean discardNull, Byte parityReplace)
+   at System.IO.Ports.SerialPort.Open()
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 54
+The given port name does not start with COM/com or does not resolve to a valid serial port.
+Parameter name: portName
+[9/29/2024 11:34:33] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:34:40] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:34:40] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:34:51] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:41:07] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:41:08] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:41:08] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:41:08] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:41:08] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:41:24] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 206
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:41:49] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:41:49] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:41:50] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:41:50] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:41:56] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 206
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:42:10] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/29/2024 11:42:10] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:40:25] خطا: Enum value was out of legal range.
+Parameter name: StopBits
+   at System.IO.Ports.SerialPort.set_StopBits(StopBits value)
+   at Wintestplc2.Form1.button1_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 51
+Enum value was out of legal range.
+Parameter name: StopBits
+[9/30/2024 08:41:14] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:41:34] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:41:44] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:41:46] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:41:59] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:43:28] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:43:58] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:44:02] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:44:04] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:44:49] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:44:56] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:44:59] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:45:01] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:45:30] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:45:46] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[9/30/2024 08:45:47] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.Form1.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 182
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 365
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:18:03] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:18:03] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:18:05] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:19:32] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:19:32] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:19:32] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:19:35] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:19:35] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:19:35] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:19:37] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:19:38] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:26:48] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:26:51] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/2/2024 08:26:53] خطا: Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+   at Wintestplc2.ClassGeneral.ConvertHexAddressToDecimal(String hexAddress) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\ClassGeneral.cs:line 54
+   at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
+Specified argument was out of the range of valid values.
+Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
