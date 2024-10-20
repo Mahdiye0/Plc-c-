@@ -15,3 +15,8 @@ C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\obj\Debug\Wintestplc2.exe
 C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\obj\Debug\Wintestplc2.pdb
 C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\EasyModbus.dll
 C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\EasyModbus.xml
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\NModbus.dll
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\NModbus.Serial.dll
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\NModbus.xml
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\bin\Debug\NModbus.Serial.xml
+C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\obj\Debug\Wintestplc2.csprojAssemblyReference.cache

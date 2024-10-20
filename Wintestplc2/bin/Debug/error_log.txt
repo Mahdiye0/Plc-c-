@@ -1223,3 +1223,10 @@ Parameter name: آدرس هگزادسیمال خارج از محدوده معت�
    at Wintestplc2.Form1.txtStart_TextChanged(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 207
 Specified argument was out of the range of valid values.
 Parameter name: آدرس هگزادسیمال خارج از محدوده معتبر است.
+[10/20/2024 22:03:09] خطا: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseUInt32(String value, NumberStyles options, NumberFormatInfo numfmt)
+   at System.UInt16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   at System.UInt16.Parse(String s)
+   at Wintestplc2.Form1.btnStart_Click(Object sender, EventArgs e) in C:\Users\monad\source\repos\Wintestplc2\Wintestplc2\Form1.cs:line 126
+Input string was not in a correct format.

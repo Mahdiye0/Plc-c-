@@ -1,5 +1,7 @@
 ﻿
 
+using NModbus;
+using NModbus.Serial;
 using System;
 using System.IO;
 using System.IO.Ports;
@@ -34,7 +36,8 @@ namespace Wintestplc2
             }
         }
         SerialPort serialPort = new SerialPort();
-        Modbus.Device.ModbusSerialMaster master;
+        //Modbus.Device.ModbusSerialMaster master;
+        IModbusMaster master;
         private void button1_Click(object sender, EventArgs e)
         {
             
@@ -49,10 +52,13 @@ namespace Wintestplc2
                     serialPort.DataBits = int.Parse(txtBits.Text.Trim());
                     serialPort.Parity = (Parity)Enum.Parse(typeof(Parity), cmbParity.SelectedItem.ToString());
                     serialPort.StopBits = (StopBits)Enum.Parse(typeof(StopBits), cmbBits.SelectedItem.ToString());
-                    master = Modbus.Device.ModbusSerialMaster.CreateRtu(serialPort);
-                    
                     serialPort.Open();
-                   
+                    //master = Modbus.Device.ModbusSerialMaster.CreateRtu(serialPort);
+                    
+                    var factory = new ModbusFactory();
+                    master= factory.CreateRtuMaster(serialPort);
+
+                  
                     pic.BackgroundImage = Properties.Resources.icons8_connected_30;
                     btnRtu.Enabled = false;
                     btndis.Enabled = true;
@@ -126,6 +132,7 @@ namespace Wintestplc2
                 if (rdbRead.Checked)
                 {
 
+
                     ushort numRegisters = ushort.Parse(txtregister.Text.Trim());
                     ushort[] registers = master.ReadHoldingRegisters(slaveId, startAddress, numRegisters);
                     comboBox1.Visible = true;
@@ -135,10 +142,12 @@ namespace Wintestplc2
                 }
                 else if (rdbWrite.Checked)
                 {
+                   
+                  
 
-                  // ushort[] data = { ushort.Parse(txt1.Text.Trim()), ushort.Parse(txt2.Text.Trim())};
-                    ushort data = ushort.Parse(txt1.Text.Trim());
-                    master.WriteSingleRegister(slaveId, startAddress, data);
+                    ushort[] data = { ushort.Parse(txt1.Text.Trim()), ushort.Parse(txt2.Text.Trim())};
+                    //ushort data = ushort.Parse(txt1.Text.Trim());
+                    master.WriteMultipleRegisters(slaveId, startAddress, data);
                     MessageBox.Show("The operation was successful");
 
                 }
