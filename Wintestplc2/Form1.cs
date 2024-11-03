@@ -56,7 +56,7 @@ namespace Wintestplc2
                     //master = Modbus.Device.ModbusSerialMaster.CreateRtu(serialPort);
                     
                     var factory = new ModbusFactory();
-                    master= factory.CreateRtuMaster(serialPort);
+                    master= factory.CreateAsciiMaster(serialPort);
 
                   
                     pic.BackgroundImage = Properties.Resources.icons8_connected_30;
